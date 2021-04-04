@@ -1,0 +1,66 @@
+@font-face{
+    font-family:Potra;
+    src: url(Potra.otf);
+}
+h1{
+    font-family: Potra;
+    color: #3dbfbc;
+    text-transform: uppercase;
+    text-shadow: #720fac -2px 2px;
+    font-size: 50px;
+    background: #090909;
+}
+h2{
+    font-family: Potra;
+    color: #3dbfbc;
+    text-transform: uppercase;
+    text-shadow: #720fac -2px 2px;
+    font-size: 40px;
+    background: #090909;
+}
+h3{
+    font-family: Potra;
+    color: #3dbfbc;
+    text-transform: uppercase;
+    text-shadow: #720fac -2px 2px;
+    font-size: 35px;
+    background: #090909;
+}
+h4{
+    font-family: Potra;
+    color: #720fac;
+    text-transform: uppercase;
+    text-shadow:  #3dbfbc -2px 2px;
+    font-size: 30px;
+    background: #FFFFFF;
+}
+h5{
+    font-family: Potra;
+    color: #720fac;
+    text-transform: uppercase;
+    text-shadow:  #3dbfbc -2px 2px;
+    font-size: 28px;
+    background: #FFFFFF;
+}
+h6{
+    font-family: Potra;
+    color: #720fac;
+    text-transform: uppercase;
+    text-shadow:  #3dbfbc -2px 2px;
+    font-size: 25px;
+    background: #FFFFFF;
+}
+p{
+    font-family: Verdana, Tahoma, sans-serif;
+    color:#720fac;
+    background: #FFFFFF;
+    text-align: left;
+    margin-left: 50px;
+}
+header{
+    background-color: #e8eff6;
+    padding-right: 50%;
+}
+body{
+    background-color: #e8eff6;
+}
