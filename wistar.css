@@ -28,11 +28,11 @@ h3{
 }
 h4{
     font-family: Potra;
-    color: #720fac;
+    color: #a844f0;
     text-transform: uppercase;
     text-shadow:  #3dbfbc -2px 2px;
-    font-size: 30px;
-    background: #FFFFFF;
+    font-size: 33px;
+    background: #090909;
 }
 h5{
     font-family: Potra;
@@ -50,6 +50,10 @@ h6{
     font-size: 25px;
     background: #FFFFFF;
 }
+a {
+    color: #720fac;
+    
+}
 p{
     font-family: Verdana, Tahoma, sans-serif;
     color:#720fac;
@@ -59,8 +63,64 @@ p{
 }
 header{
     background-color: #e8eff6;
-    padding-right: 50%;
+    padding-right: 30%;
 }
 body{
     background-color: #e8eff6;
 }
+footer{
+    background-color: #090909;
+    position: absolute;
+    float: inherit;
+}
+.video{
+    float:right;
+}
+iframe{
+    position: absolute;
+    left: 50%;
+    top: 0px;
+    width: 50%;
+    height: 50%;
+}
+.lefttext{
+    text-align: left;
+    float: left;
+    position: absolute;
+    padding-right: 50%;
+}
+.righttext{
+    text-align:right;
+    float:right;
+    position: aboluste;
+    padding-left: 50%;
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  /* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .example {background: red;}
+  }
+  
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+  @media only screen and (min-width: 600px) {
+    .example {background: green;}
+  }
+  
+  /* Medium devices (landscape tablets, 768px and up) */
+  @media only screen and (min-width: 768px) {
+    .example {background: blue;}
+  } 
+  
+  /* Large devices (laptops/desktops, 992px and up) */
+  @media only screen and (min-width: 992px) {
+    .example {background: orange;}
+  } 
+  
+  /* Extra large devices (large laptops and desktops, 1200px and up) */
+  @media only screen and (min-width: 1200px) {
+    .example {background: pink;}
+  }
