@@ -9,6 +9,7 @@ h1{
     text-shadow: #720fac -2px 2px;
     font-size: 50px;
     background: #090909;
+    border: 5px solid #090909;
 }
 h2{
     font-family: Potra;
@@ -17,6 +18,7 @@ h2{
     text-shadow: #720fac -2px 2px;
     font-size: 40px;
     background: #090909;
+    border: 5px solid #090909;
 }
 h3{
     font-family: Potra;
@@ -25,6 +27,7 @@ h3{
     text-shadow: #720fac -2px 2px;
     font-size: 35px;
     background: #090909;
+    border: 5px solid #090909;
 }
 h4{
     font-family: Potra;
@@ -33,6 +36,7 @@ h4{
     text-shadow:  #3dbfbc -2px 2px;
     font-size: 33px;
     background: #090909;
+    border: 5px solid #090909;
 }
 h5{
     font-family: Potra;
@@ -41,14 +45,16 @@ h5{
     text-shadow:  #3dbfbc -2px 2px;
     font-size: 28px;
     background: #FFFFFF;
+    border: 5px solid #090909;
 }
 h6{
     font-family: Potra;
     color: #720fac;
     text-transform: uppercase;
     text-shadow:  #3dbfbc -2px 2px;
-    font-size: 25px;
+    font-size: 28px;
     background: #FFFFFF;
+    border: 5px solid #090909;
 }
 a {
     color: #720fac;
@@ -56,10 +62,15 @@ a {
 }
 p{
     font-family: Verdana, Tahoma, sans-serif;
-    color:#720fac;
+    color:#090909;
     background: #FFFFFF;
     text-align: left;
-    margin-left: 50px;
+    border: 5px solid #FFFFFF;
+
+}
+img{
+    width: 100%;
+    height: 100%;
 }
 header{
     background-color: #e8eff6;
@@ -69,30 +80,28 @@ body{
     background-color: #e8eff6;
 }
 footer{
-    background-color: #090909;
-    position: absolute;
-    float: inherit;
+    text-align: center;
+    padding-right: 10%;
+    padding-left: 80%;
 }
 .video{
     float:right;
 }
 iframe{
     position: absolute;
-    left: 50%;
-    top: 0px;
-    width: 50%;
-    height: 50%;
+    top: 0%;
+    width: 100%;
+    height: 100%;
 }
 .lefttext{
-    text-align: left;
-    float: left;
-    position: absolute;
-    padding-right: 50%;
+    text-align:RIGHT;
+    padding-left: 30%;
+    padding-right: 15%;
 }
 .righttext{
     text-align:right;
     float:right;
-    position: aboluste;
+    position: absolute;
     padding-left: 50%;
 }
 .clearfix::after {
@@ -100,6 +109,30 @@ iframe{
     clear: both;
     display: table;
   }
+.statement{
+    padding-left: 30%;
+    padding-right: 20%;
+}
+.profiledesc{
+    padding-left: 5%;
+    padding-right: 50%;
+}
+.gallerydesc{
+    padding-left: 5%;
+    padding-right: 75%;
+}
+.gallery{
+    float: right;
+    padding-left: 40%;
+    padding-right: 5%;
+    position: absolute;
+}
+.profiles{
+    float:right;
+    position: absolute;
+    padding-left: 55%;
+    padding-right: 15%;
+}
   /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
     .example {background: red;}
