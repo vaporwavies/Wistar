@@ -122,9 +122,9 @@ iframe{
     padding-right: 75%;
 }
 .gallery{
-    float: right;
+    float: left;
     padding-left: 40%;
-    padding-right: 5%;
+    padding-right: 10%;
     position: absolute;
 }
 .profiles{
