@@ -93,6 +93,13 @@ iframe{
     width: 100%;
     height: 56.3%;
 }
+.livestream{
+    padding: 56.25% 0px 0px; 
+    margin-left: 50%; 
+    margin-top:7%;
+    padding-bottom:0; 
+    position: relative;
+}
 .lefttext{
     text-align:RIGHT;
     padding-left: 10%;
@@ -137,7 +144,11 @@ iframe{
 }
   /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
-    .example {background: red;}
+    .livestream {margin-left: 0%; margin-top: 120%;}
+    h1 {font-size: 30px;}
+    h2 {font-size: 27px;}
+    h3 {font-size: 25px;}
+    .lefttext {padding-right: 10%;}
   }
   
   /* Small devices (portrait tablets and large phones, 600px and up) */
