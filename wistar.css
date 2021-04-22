@@ -142,18 +142,27 @@ iframe{
     padding-left: 55%;
     padding-right: 15%;
 }
+.advert{
+    margin-top: 120%;
+}
   /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
-    .livestream {margin-left: 0%; margin-top: 120%;}
+    .livestream {margin-left: 0%; margin-top: 100%;}
     h1 {font-size: 30px;}
     h2 {font-size: 27px;}
     h3 {font-size: 25px;}
     .lefttext {padding-right: 10%;}
+    iframe {height: 100%; top: 80%;bottom:0%;}
   }
   
   /* Small devices (portrait tablets and large phones, 600px and up) */
-  @media only screen and (min-width: 600px) {
-    .example {background: green;}
+  @media only screen and (min-width: 600px) and (max-width:768px) {
+    .livestream {margin-left: 0%; margin-top: 100%;}
+    h1 {font-size: 30px;}
+    h2 {font-size: 27px;}
+    h3 {font-size: 25px;}
+    .lefttext {padding-right: 10%;}
+    iframe {height: 100%; top: 80%;bottom:0%;}
   }
   
   /* Medium devices (landscape tablets, 768px and up) */
