@@ -96,8 +96,9 @@ iframe{
 .livestream{
     padding: 56.25% 0px 0px; 
     margin-left: 50%; 
-    margin-top:7%;
+    margin-top:15%;
     padding-bottom:0; 
+    padding-right: 5px;
     position: relative;
 }
 .lefttext{
@@ -143,7 +144,14 @@ iframe{
     padding-right: 15%;
 }
 .advert{
-    margin-top: 120%;
+    margin-top: 0;
+}
+.poster{
+    height:50%;
+    width:50%;
+    margin-top: 400px; 
+    margin-left:25%;
+    margin-right:25%;
 }
   /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
@@ -153,6 +161,9 @@ iframe{
     h3 {font-size: 25px;}
     .lefttext {padding-right: 10%;}
     iframe {height: 100%; top: 80%;bottom:0%;}
+    .statement{padding-left:10%;padding-right:10%;}
+    footer{padding-left:70%}
+    .poster{margin-top:0px;}
   }
   
   /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -163,15 +174,17 @@ iframe{
     h3 {font-size: 25px;}
     .lefttext {padding-right: 10%;}
     iframe {height: 100%; top: 80%;bottom:0%;}
+    .profiles{position:relative;float:none;padding-left:5%;}
+    .poster{margin-top:0px;}
   }
   
   /* Medium devices (landscape tablets, 768px and up) */
-  @media only screen and (min-width: 768px) {
+  @media only screen and (min-width: 768px) and (max-width:992) {
     .example {background: blue;}
   } 
   
   /* Large devices (laptops/desktops, 992px and up) */
-  @media only screen and (min-width: 992px) {
+  @media only screen and (min-width: 992px) and (max-width: 1200) {
     .example {background: orange;}
   } 
   
